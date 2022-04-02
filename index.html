@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="css/aos.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Main style -->
+  <link rel="stylesheet" href="css/main.css">
+  <title>Kasper Template</title>
+</head>
+
+<body>
+  <!-- Start nav -->
+  <nav class="navbar navbar-expand-md fixed-top py-0">
+    <div class="container">
+      <a href="#"><img src="imgs/logo.png" alt="logo"></a>
+      <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars navbar-toggler-icon p-1"></i>
+      </button>
+      <div class="collapse navbar-collapse mb-2 mb-md-0 w-100 justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio">portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End nav -->
+  <!-- Start landing -->
+  <section class="landing vh-100" id="home">
+    <div id="carouselIndicators" class="carousel slide h-100" data-bs-interval="false" data-bs-keyboard="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+          class="rounded-circle border active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="rounded-circle border"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class="rounded-circle border"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner h-100">
+        <div class="carousel-item h-100 active">
+          <img src="imgs/slider/bg1.jpg" class="d-block w-100 h-100 " alt="">
+          <div class="text-holder position-absolute top-50 text-light py-4 py-md-5 pe-4 pe-md-5">
+            <h1>
+              <div>Hello world!</div>
+              <div>We are Kasper, we make art.</div>
+            </h1>
+            <p class="mt-3 lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet
+              elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris
+              blandit aliquet elit, eget tincidunt.</p>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="imgs/slider/bg2.jpg" class="d-block w-100 h-100" alt="">
+          <div class="text-holder position-absolute top-50 text-light py-4 py-md-5 pe-4 pe-md-5">
+            <h1>
+              <div>Hello world!</div>
+              <div>We are Kasper, we make art.</div>
+            </h1>
+            <p class="mt-3 lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet
+              elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris
+              blandit aliquet elit, eget tincidunt.</p>
+          </div>
+        </div>
+        <div class="carousel-item h-100">
+          <img src="imgs/slider/bg3.jpg" class="d-block w-100 h-100" alt="">
+          <div class="text-holder position-absolute top-50 text-light py-4 py-md-5 pe-4 pe-md-5">
+            <h1>
+              <div>Hello world!</div>
+              <div>We are Kasper, we make art.</div>
+            </h1>
+            <p class="mt-3 lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet
+              elit, eget
+              tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris
+              blandit aliquet elit, eget tincidunt.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev d-none d-md-block opacity-100 w-auto top-50" type="button"
+          data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <i class="fa-solid fa-angle-left slide-icon fa-2x border py-2 px-3" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next d-none d-md-block opacity-100 w-auto top-50" type="button"
+          data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <i class="fa-solid fa-angle-right fa-2x slide-icon border py-2 px-3" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- End landing -->
+  <!-- Start Services -->
+  <section class="services pt-5 overflow-hidden" id="services">
+    <!-- Start main -->
+    <div class="container py-5">
+      <div class="section-title mb-5 text-center" data-aos="fade-down">
+        <h2 class="text-uppercase position-relative mb-5">services</h2>
+        <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+          blandit aliquet elit, eget tincidunt.</p>
+      </div>
+      <div class="row pt-5 mb-5">
+        <div class="box d-md-flex col-lg-6 mb-4" data-aos="fade-right">
+          <i class="fa-solid fa-tv fa-3x icon col-12 col-md-3 mb-3 mb-md-0"></i>
+          <div class="content col-12 col-md-9 text-center text-md-start">
+            <h3 class="title fs-5 mb-2">Vorem amet intuitive</h3>
+            <p class="description lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+        <div class="box d-md-flex col-lg-6 mb-4" data-aos="fade-left">
+          <i class="fa-solid fa-gear fa-3x icon col-12 col-md-3 mb-3 mb-md-0"></i>
+          <div class="content col-12 col-md-9 text-center text-md-start">
+            <h3 class="title fs-5 mb-2">Vorem amet intuitive</h3>
+            <p class="description lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+        <div class="box d-md-flex col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <i class="fa-solid fa-pen-ruler fa-3x icon col-12 col-md-3 mb-3 mb-md-0"></i>
+          <div class="content col-12 col-md-9 text-center text-md-start">
+            <h3 class="title fs-5 mb-2">Vorem amet intuitive</h3>
+            <p class="description lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+        <div class="box d-md-flex col-lg-6 mb-4 mb-lg-0" data-aos="fade-left">
+          <i class="fa-solid fa-camera fa-3x icon col-12 col-md-3 mb-3 mb-md-0"></i>
+          <div class="content col-12 col-md-9 text-center text-md-start">
+            <h3 class="title fs-5 mb-2">Vorem amet intuitive</h3>
+            <p class="description lh-lg">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
+              aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End main -->
+    <!-- Start features -->
+    <div class="design-features bg-dark py-5 d-lg-flex">
+      <div class="icons-holder position-relative d-flex justify-content-end">
+        <img src="imgs/icons/iphone-black.png" alt="icon" class="black-phone" data-aos="fade-right"
+          data-aos-duration="700">
+        <img src="imgs/icons/iphone-white.png" alt="icon" class="white-phone position-absolute bottom-0"
+          data-aos="fade-right" data-aos-delay="300" data-aos-duration="700">
+      </div>
+      <div class="main-content text-light ms-auto p-5 my-5" data-aos="fade-left" data-aos-anchor=".design-features">
+        <h3 class="text-uppercase mb-5 text-center text-lg-start">our designs come with...</h3>
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-tv icon"></i>
+            <p class="text-capitalize mb-0">responsive design</p>
+          </li>
+          <li class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-tv icon"></i>
+            <p class="text-capitalize mb-0">modern and clean design</p>
+          </li>
+          <li class="d-flex align-items-center gap-4 mb-3">
+            <i class="fa-solid fa-tv icon"></i>
+            <p class="text-capitalize mb-0">clean code</p>
+          </li>
+          <li class="d-flex align-items-center gap-4">
+            <i class="fa-solid fa-tv icon"></i>
+            <p class="text-capitalize mb-0">browser friendly</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End features -->
+  </section>
+  <!-- End Services -->
+  <!-- Start portofolio -->
+  <section class="portofolio py-5 overflow-hidden" id="portofolio">
+    <div class="container pt-5">
+      <div class="section-title text-center" data-aos="fade-down">
+        <h2 class="text-uppercase position-relative mb-5">portofolio</h2>
+        <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+          blandit aliquet elit, eget tincidunt.</p>
+      </div>
+      <ul class="filter-options list-unstyled d-flex justify-content-center gap-2 flex-wrap py-5" data-aos="fade-right">
+        <li><button type="button" class="filter text-uppercase border-0 py-1 px-3 rounded-pill active"
+            data-filter="all">all</button>
+        </li>
+        <li><button type="button" class="filter text-uppercase border-0 py-1 px-3 rounded-pill"
+            data-filter=".app">app</button></li>
+        <li><button type="button" class="filter text-uppercase border-0 py-1 px-3 rounded-pill"
+            data-filter=".photography">photography</button></li>
+        <li><button type="button" class="filter text-uppercase border-0 py-1 px-3 rounded-pill"
+            data-filter=".web">web</button></li>
+        <li><button type="button" class="filter text-uppercase border-0 py-1 px-3 rounded-pill"
+            data-filter=".print">print</button>
+        </li>
+      </ul>
+      <div class="content row" data-aos="fade">
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix app">
+          <img src="imgs/portfolio/portfolio-1.jpg" alt="work" class="work-image w-100" data-title="Title One">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">app</p>
+            </div>
+          </div>
+        </div>
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix photography">
+          <img src="imgs/portfolio/portfolio-2.jpg" alt="work" class="work-image w-100" data-title="Title Two">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">photography</p>
+            </div>
+          </div>
+        </div>
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix print">
+          <img src="imgs/portfolio/portfolio-3.jpg" alt="work" class="work-image w-100" data-title="Title Three">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">print</p>
+            </div>
+          </div>
+        </div>
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix web">
+          <img src="imgs/portfolio/portfolio-4.jpg" alt="work" class="work-image w-100" data-title="Title Four">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">web</p>
+            </div>
+          </div>
+        </div>
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix photography">
+          <img src="imgs/portfolio/portfolio-5.jpg" alt="work" class="work-image w-100" data-title="Title Five">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">photography</p>
+            </div>
+          </div>
+        </div>
+        <div class="work position-relative col-md-6 col-lg-4 overflow-hidden p-1 mix print">
+          <img src="imgs/portfolio/portfolio-6.jpg" alt="work" class="work-image w-100" data-title="Title Six">
+          <div class="overlay position-absolute">
+            <button type="button" class="open-work border-0 bg-transparent w-100" data-bs-toggle="modal"
+              data-bs-target="#showWork">
+              <i class="fa-solid fa-plus p-3 open-icon rounded-circle text-light"></i>
+            </button>
+            <div class="info bg-light p-3 d-flex flex-column justify-content-center">
+              <h3 class="text-capitalize fs-5 mb-0">work title</h3>
+              <p class="category text-capitalize mb-0">print</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start opened work Container -->
+      <div class="modal fade" id="showWork" tabindex="-1" aria-labelledby="showWork" aria-hidden="true">
+        <div class="modal-dialog w-75">
+          <div class="modal-content border-0 bg-transparent position-relative">
+            <button type="button" class="btn-close d-none d-md-block position-absolute top-0 bg-light end-0"
+              data-bs-dismiss="modal" aria-label="Close">
+            </button>
+            <div class="modal-body p-0">
+              <div id="portofolioCarousel" class="carousel slide h-100" data-bs-interval="false"
+                data-bs-keyboard="false">
+                <div class="carousel-inner h-100 position-relative">
+                  <button class="carousel-control-prev justify-content-start d-none d-md-flex p-4 opacity-100 top-0"
+                    type="button" data-bs-target="#portofolioCarousel" data-bs-slide="prev">
+                    <i class="fa-solid fa-angle-left slide-icon border border-2 rounded-circle bg-dark opacity-0"
+                      aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next justify-content-end d-none d-md-flex p-4 opacity-100 top-0"
+                    type="button" data-bs-target="#portofolioCarousel" data-bs-slide="next">
+                    <i class="fa-solid fa-angle-right slide-icon border border-2 rounded-circle bg-dark opacity-0"
+                      aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End opened work Container -->
+    </div>
+  </section>
+  <!-- End portofolio -->
+  <!-- Start about -->
+  <section class="about pt-5 overflow-hidden" id="about">
+    <!-- Start intro -->
+    <div class="intro overflow-hidden pt-5 text-center">
+      <div class="container">
+        <div class="section-title pb-5" data-aos="fade-down">
+          <h2 class="text-uppercase position-relative mb-5">about us</h2>
+          <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+            blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <img src="imgs/about.png" alt="icon" class="img-fluid mt-3" data-aos="fade-up">
+      </div>
+    </div>
+    <!-- End intro -->
+    <!-- Start stats -->
+    <div class="stats text-center bg-dark py-5 text-light" id="stats">
+      <div class="container py-5">
+        <div class="content row">
+          <div class="stat col-md-6 col-lg-3 p-4 my-0" data-aos="fade-right" data-aos-delay="200">
+            <div class="icon-holder bg-dark mx-auto px-2 py-3 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-square-check icon"></i>
+            </div>
+            <div class="number my-2 fw-bold" data-stat="120">0</div>
+            <p class="title mb-0 text-capitalize">completed projects</p>
+          </div>
+          <div class="stat col-md-6 col-lg-3 p-4 my-0" data-aos="fade-right">
+            <div class="icon-holder bg-dark mx-auto px-2 py-3 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-users icon"></i>
+            </div>
+            <div class="number my-2 fw-bold" data-stat="152">0</div>
+            <p class="title mb-0 text-capitalize">satisfied clients </p>
+          </div>
+          <div class="stat col-md-6 col-lg-3 p-4" data-aos="fade-left">
+            <div class="icon-holder bg-dark mx-auto px-2 py-3 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-clock icon"></i>
+            </div>
+            <div class="number my-2 fw-bold" data-stat="2500">0</div>
+            <p class="title mb-0 text-capitalize">working hours </p>
+          </div>
+          <div class="stat col-md-6 col-lg-3 p-4" data-aos="fade-left" data-aos-delay="200">
+            <div class="icon-holder bg-dark mx-auto px-2 py-3 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-trophy icon"></i>
+            </div>
+            <div class="number my-2 fw-bold" data-stat="150">0</div>
+            <p class="title mb-0 text-capitalize">awards won</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End stats -->
+    <!-- Start Testimonials and Skills -->
+    <div class="test-and-skill py-5" id="test-and-skill">
+      <div class="container py-5">
+        <div class="row">
+          <!-- Start Testimonials -->
+          <div class="testimonials px-lg-5 col-lg-6" data-aos="fade-right">
+            <div class="section-title text-center pb-5">
+              <h2 class="text-uppercase position-relative mb-5">testimonials</h2>
+              <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div id="sectionCarouselIndicators" class="carousel slide pb-5" data-bs-interval="false"
+              data-bs-keyboard="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#sectionCarouselIndicators" data-bs-slide-to="0"
+                  class="rounded-circle border active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#sectionCarouselIndicators" data-bs-slide-to="1"
+                  class="rounded-circle border" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#sectionCarouselIndicators" data-bs-slide-to="2"
+                  class="rounded-circle border" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="review-holder row align-items-center">
+                    <img src="imgs/client/1.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                  <div class="review-holder row align-items-center py-5">
+                    <img src="imgs/client/2.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="review-holder row align-items-center">
+                    <img src="imgs/client/3.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                  <div class="review-holder row align-items-center py-5">
+                    <img src="imgs/client/1.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="review-holder row align-items-center">
+                    <img src="imgs/client/2.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                  <div class="review-holder row align-items-center py-5">
+                    <img src="imgs/client/3.jpg" alt="user picture"
+                      class="mx-auto mx-md-0 my-3 my-md-0 rounded-circle col-4 col-md-2">
+                    <div class="review col-md-10">
+                      <p class="text-center text-md-start">Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                        sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                      <p class="user-name fst-italic text-black-50 text-end pb-3 mb-0 border-bottom">
+                        John Doe, CEO
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Testimonials -->
+          <!-- Start skills -->
+          <div class="skills px-lg-5 pt-5 pt-lg-0 col-lg-6" data-aos="fade-left">
+            <div class="section-title text-center pb-5">
+              <h2 class="text-uppercase position-relative mb-5">our skills</h2>
+              <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+                blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <div class="percentages">
+              <div class="percantage-holder mb-4">
+                <p class="language mb-0">HTML 5</p>
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="95" aria-valuemin="0"
+                    aria-valuemax="100" data-progress="95"></div>
+                </div>
+              </div>
+              <div class="percantage-holder mb-4">
+                <p class="language mb-0">CSS 3</p>
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="93" aria-valuemin="0"
+                    aria-valuemax="100" data-progress="93"></div>
+                </div>
+              </div>
+              <div class="percantage-holder mb-4">
+                <p class="language mb-0">PHP</p>
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="85" aria-valuemin="0"
+                    aria-valuemax="100" data-progress="85"></div>
+                </div>
+              </div>
+              <div class="percantage-holder mb-4">
+                <p class="language mb-0">MYSQL</p>
+                <div class="progress" style="height: 25px;">
+                  <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="87" aria-valuemin="0"
+                    aria-valuemax="100" data-progress="87"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End skills -->
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials and Skills -->
+    <!-- Start quote -->
+    <div class="quote-holder py-5 bg-dark">
+      <div class="container py-5">
+        <blockquote class="text-light text-center mb-0" data-aos="zoom-in" data-aos-duration="800">
+          <p class="quote text-uppercase mb-0 fs-4"> “accumsan id curabitur et portitor mauris
+            blandit dolor
+            lorem some est our donec stin lortios”</p>
+          <footer>
+            <p class="mb-0 mt-3 author">John Doe</p>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <!-- End quote -->
+  </section>
+  <!-- End about -->
+  <!-- Start pricing -->
+  <section class="pricing py-5 text-center overflow-hidden" id="pricing">
+    <div class="container py-5">
+      <div class="section-title pb-5" data-aos="fade-down">
+        <h2 class="text-uppercase position-relative mb-5">Pricing</h2>
+        <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+          blandit aliquet elit, eget tincidunt.</p>
+      </div>
+      <div class="plans pt-3 pb-5 row">
+        <div class="plan col-md-6 col-lg-3 pb-5 pb-lg-0" data-aos="fade-up">
+          <div class="price-info border-top p-4">
+            <p class="text-uppercase">basic</p>
+            <div class="price">
+              <span class="cost fw-bold position-relative">19</span> <span class="text-uppercase">/mo</span>
+            </div>
+          </div>
+          <ul class="features list-unstyled border-top border-bottom mb-4 text-capitalize">
+            <li><span class="border-bottom d-inline-block p-3">feature 1</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 2</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 3</span></li>
+            <li><span class="d-inline-block p-3">feature 4</span></li>
+          </ul>
+          <button class="btn buy-plan border text-capitalize px-4">buy now</button>
+        </div>
+        <div class="plan col-md-6 col-lg-3 py-5 pt-md-0 pb-lg-0" data-aos="fade-up" data-aos-delay="150">
+          <div class="price-info border-top p-4">
+            <p class="text-uppercase">premium</p>
+            <div class="price">
+              <span class="cost fw-bold position-relative">29</span> <span class="text-uppercase">/mo</span>
+            </div>
+          </div>
+          <ul class="features list-unstyled border-top border-bottom mb-4 text-capitalize">
+            <li><span class="border-bottom d-inline-block p-3">feature 1</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 2</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 3</span></li>
+            <li><span class="d-inline-block p-3">feature 4</span></li>
+          </ul>
+          <button class="btn buy-plan border text-capitalize px-4">buy now</button>
+        </div>
+        <div class="plan col-md-6 col-lg-3 py-5 pt-lg-0 pb-md-0" data-aos="fade-up" data-aos-delay="250">
+          <div class="price-info border-top p-4">
+            <p class="text-uppercase">pro</p>
+            <div class="price">
+              <span class="cost fw-bold position-relative">39</span> <span class="text-uppercase">/mo</span>
+            </div>
+          </div>
+          <ul class="features list-unstyled border-top border-bottom mb-4 text-capitalize">
+            <li><span class="border-bottom d-inline-block p-3">feature 1</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 2</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 3</span></li>
+            <li><span class="d-inline-block p-3">feature 4</span></li>
+          </ul>
+          <button class="btn buy-plan border text-capitalize px-4">buy now</button>
+        </div>
+        <div class="plan col-md-6 col-lg-3 pt-5 pt-lg-0" data-aos="fade-up" data-aos-delay="350">
+          <div class="price-info border-top p-4">
+            <p class="text-uppercase">platinum</p>
+            <div class="price">
+              <span class="cost fw-bold position-relative">49</span> <span class="text-uppercase">/mo</span>
+            </div>
+          </div>
+          <ul class="features list-unstyled border-top border-bottom mb-4 text-capitalize">
+            <li><span class="border-bottom d-inline-block p-3">feature 1</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 2</span></li>
+            <li><span class="border-bottom d-inline-block p-3">feature 3</span></li>
+            <li><span class="d-inline-block p-3">feature 4</span></li>
+          </ul>
+          <button class="btn buy-plan border text-capitalize px-4">buy now</button>
+        </div>
+      </div>
+      <div class="special-request pt-5" data-aos="fade-right">
+        <p class="fs-5">Contact us if you have special request</p>
+        <a href="#contact" class="text-capitalize btn text-light py-2 px-4">contact us</a>
+      </div>
+    </div>
+  </section>
+  <!-- End pricing -->
+  <!-- Start subscribe -->
+  <section class="subscribe py-5 bg-dark overflow-hidden">
+    <div class="container py-5">
+      <div class="row mx-0 text-light align-items-center">
+        <form action="#" data-aos="fade-right"
+          class="subscribe-form p-0 col-lg-7 d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch">
+          <div class="d-flex w-100 email-holder">
+            <i class="fa-solid fa-envelope px-3 align-self-center"></i>
+            <input type="email" name="email" placeholder="Your Email" id="email"
+              class="border-0 py-3 py-sm-0 ps-2 w-100 bg-transparent" required>
+          </div>
+          <button type="submit"
+            class="subscribe-btn btn h-100 px-lg-4 py-3 mt-3 mt-sm-0 rounded-0 text-light text-uppercase">subscribe</button>
+        </form>
+        <p class="info col-lg-4 mt-3 mt-lg-0 ms-lg-4 text-center text-lg-start lh-lg mb-0" data-aos="fade-left">
+          Curabitur arcu erat, accumsan
+          id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+      </div>
+    </div>
+  </section>
+  <!-- End subscribe -->
+  <!-- Start contact -->
+  <section class="contact py-5 overflow-hidden" id="contact">
+    <div class="container py-5">
+      <div class="section-title pb-5 text-center" data-aos="fade-down">
+        <h2 class="text-uppercase position-relative mb-5">contact us</h2>
+        <p class="mx-auto">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris
+          blandit aliquet elit, eget tincidunt.</p>
+      </div>
+      <div class="row gap-4 pt-5 mx-0">
+        <form action="#" class="contact-form row col-md-8 mx-0" data-aos="fade-right">
+          <input type="text" class="form-control p-3 mb-4 fs-6" placeholder="Your Name" aria-label="Username" required>
+          <input type="email" class="form-control p-3 mb-4" placeholder="Your Email" aria-label="Useremail" required>
+          <textarea class="form-control p-3 mb-4" placeholder="Your Message" rows="8" required></textarea>
+          <button type="submit"
+            class="send-msg col-6 col-sm-4 ms-auto py-3 btn text-light text-uppercase rounded-0">send
+            message</button>
+        </form>
+        <div class="phone-numbers col-md-3 row mx-0 text-center text-md-start" data-aos="fade-left">
+          <div class="col-6 col-md-12 px-0">
+            <p class="heading text-uppercase">get in touch</p>
+            <p class="number mb-1">+00 123-456-789</p>
+            <p class="number mb-0">+00 123-456-789</p>
+          </div>
+          <div class="col-6 col-md-12 px-0">
+            <p class="heading text-uppercase">get in touch</p>
+            <p class="number mb-1">+00 123-456-789</p>
+            <p class="number mb-0">+00 123-456-789</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End contact -->
+  <!-- Start footer -->
+  <footer class="py-5 bg-dark text-light text-center main-footer overflow-hidden">
+    <div class="container pt-5">
+      <img src="imgs/logo.png" alt="logo" class="img-fluid" data-aos="fade-down">
+      <div class="py-5" data-aos="fade-up">
+        <p class="text-uppercase mb-3 fs-5">we are social</p>
+        <div class="social-links py-3 px-5 border-top d-flex align-items-center gap-4 mx-auto justify-content-center">
+          <a href="#" class="text-decoration-none text-light"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="text-decoration-none text-light"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="text-decoration-none text-light"><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#" class="text-decoration-none text-light"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+      <p class="attribute mb-0">Theme by <a href="https://www.graphberry.com/" target="_blank"
+          class="text-decoration-none fw-bold">GraphBerry.com</a>
+      </p>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+  <!-- JavaScripts -->
+  <!-- Font Awesome -->
+  <script src="js/all.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- AOS -->
+  <script src="js/aos.js"></script>
+  <!-- jquery -->
+  <script src="js/mixitup.min.js"></script>
+  <!-- Main -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
